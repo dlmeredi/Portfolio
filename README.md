@@ -1,3 +1,4 @@
 # Portfolio
-Personal portfolio project 
-ETA completition = end of May 2021 
+Personal portfolio project ay 2021 
+EDITED: estimated completion ---> AUGUST 2021 
+CURRENTLY WORKING ON: version 1
