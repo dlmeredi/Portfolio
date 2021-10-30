@@ -1,8 +1,6 @@
 # Portfolio
-Personal portfolio project ay 2021 
 
+My personal website that showcases my skills & projects. 
 
-EDITED: estimated completion ---> AUGUST 2021 
+I will update this later... 
 
-
-CURRENTLY WORKING ON: version 1
