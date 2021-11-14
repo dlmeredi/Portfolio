@@ -1,35 +1,48 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: 'Balsamiq Sans', sans-serif;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
 }
-.sidebar{
+
+.sidebar {
     flex: 1;
-    height:600px;
+    height: 600px;
     width: 150px;
     background-color: white;
 }
-.main-content{
+
+.main-content {
     flex: 1;
     height: 750px;
     background-color: white;
     overflow: auto;
 }
 
-.welcome-header{
-    height: 500px;
-    width: 700px;
+.welcome-header {
+    height: 600px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
 }
 
-.headshot{
+.headshot {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: left;
 
 }
 
-.about-me{
-    height:
-    width:
+.about-me {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
 }
