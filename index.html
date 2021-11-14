@@ -5,12 +5,11 @@
     <!-- next meta tag allows for website to be viewed through mobile/tablet screens  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diamond's Portfolio Website</title>
+    <!--    bootstrap 4.5.3    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- custom css -->
-    <link rel="stylesheet" href="styling.css">
-    <!-- helps keep the site uniform in ALL browsers -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <!-- font awesome kit link, this is for icons to be used on portfolio page -->
-    <script src="https://kit.fontawesome.com/2cbb9851c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styling.css">
     <!-- preferred default font for site "Balsamiq Sans" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,18 +17,14 @@
 </head>
 <body>
 <header>
-    <div class="logo">
-        <img class="logo" src="#" alt="logo">
-    </div>
     <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
     </button>
     <nav class="nav">
         <ul class="navList">
             <li class="navItem"><a href="#">Home</a></li>
-            <li class="navItem"><a href="#">About Me</a></li>
-            <li class="navItem"><a href="#">My Work</a></li>
-            <li class="navItem"><a href="#">Contact Me</a></li>
+            <li class="navItem"><a href="#">AboutMe</a></li>
+            <li class="navItem"><a href="#">Projects</a></li>
         </ul>
     </nav>
 </header>
@@ -47,15 +42,56 @@
     </div>
     <div class="main-content">
         <center>main content</center>
-        <p>Ac auctor augue mauris augue neque gravida. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Adipiscing diam donec adipiscing tristique risus. Vel elit scelerisque mauris pellentesque. Quis varius quam quisque id diam. Massa placerat duis ultricies lacus sed turpis tincidunt id. Viverra vitae congue eu consequat ac felis. Diam vulputate ut pharetra sit amet aliquam. Est placerat in egestas erat imperdiet sed. Nulla aliquet enim tortor at. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Velit sed ullamcorper morbi tincidunt ornare. Risus viverra adipiscing at in tellus integer feugiat scelerisque. Enim sit amet venenatis urna cursus eget nunc. Cursus risus at ultrices mi tempus imperdiet nulla. Enim ut sem viverra aliquet eget. Consectetur purus ut faucibus pulvinar elementum. Enim ut sem viverra aliquet eget sit amet tellus cras.
+        <p>Ac auctor augue mauris augue neque gravida. Et ultrices neque ornare aenean euismod elementum nisi quis
+            eleifend. Adipiscing diam donec adipiscing tristique risus. Vel elit scelerisque mauris pellentesque. Quis
+            varius quam quisque id diam. Massa placerat duis ultricies lacus sed turpis tincidunt id. Viverra vitae
+            congue eu consequat ac felis. Diam vulputate ut pharetra sit amet aliquam. Est placerat in egestas erat
+            imperdiet sed. Nulla aliquet enim tortor at. Est pellentesque elit ullamcorper dignissim cras tincidunt
+            lobortis feugiat. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Velit sed ullamcorper
+            morbi tincidunt ornare. Risus viverra adipiscing at in tellus integer feugiat scelerisque. Enim sit amet
+            venenatis urna cursus eget nunc. Cursus risus at ultrices mi tempus imperdiet nulla. Enim ut sem viverra
+            aliquet eget. Consectetur purus ut faucibus pulvinar elementum. Enim ut sem viverra aliquet eget sit amet
+            tellus cras.
         </p>
 
-        <p>Posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis. Molestie ac feugiat sed lectus vestibulum mattis. Lacinia quis vel eros donec ac odio tempor. Est lorem ipsum dolor sit amet. Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Volutpat blandit aliquam etiam erat. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Magna ac placerat vestibulum lectus mauris. Ut consequat semper viverra nam libero. Diam quis enim lobortis scelerisque fermentum dui faucibus in. Massa tempor nec feugiat nisl. Est ante in nibh mauris. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Est ante in nibh mauris cursus. Tellus mauris a diam maecenas sed. Augue lacus viverra vitae congue. Scelerisque eleifend donec pretium vulputate.
+        <p>Posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis. Molestie ac feugiat sed lectus
+            vestibulum mattis. Lacinia quis vel eros donec ac odio tempor. Est lorem ipsum dolor sit amet. Scelerisque
+            felis imperdiet proin fermentum leo vel orci porta non. Volutpat blandit aliquam etiam erat. Turpis egestas
+            pretium aenean pharetra magna ac placerat vestibulum lectus. Magna ac placerat vestibulum lectus mauris. Ut
+            consequat semper viverra nam libero. Diam quis enim lobortis scelerisque fermentum dui faucibus in. Massa
+            tempor nec feugiat nisl. Est ante in nibh mauris. Eget nunc lobortis mattis aliquam faucibus purus in massa
+            tempor. Est ante in nibh mauris cursus. Tellus mauris a diam maecenas sed. Augue lacus viverra vitae congue.
+            Scelerisque eleifend donec pretium vulputate.
         </p>
-        <p>Sed risus pretium quam vulputate dignissim suspendisse. Nisi scelerisque eu ultrices vitae auctor eu augue. Ac placerat vestibulum lectus mauris ultrices. Adipiscing vitae proin sagittis nisl rhoncus. Sagittis nisl rhoncus mattis rhoncus. Amet mauris commodo quis imperdiet massa tincidunt nunc. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Euismod lacinia at quis risus sed vulputate odio. Aliquam etiam erat velit scelerisque. Auctor urna nunc id cursus metus aliquam. Morbi tempus iaculis urna id. Hac habitasse platea dictumst quisque sagittis purus sit amet. Et leo duis ut diam. Volutpat ac tincidunt vitae semper quis lectus nulla at.</p>
+        <p>Sed risus pretium quam vulputate dignissim suspendisse. Nisi scelerisque eu ultrices vitae auctor eu augue.
+            Ac placerat vestibulum lectus mauris ultrices. Adipiscing vitae proin sagittis nisl rhoncus. Sagittis nisl
+            rhoncus mattis rhoncus. Amet mauris commodo quis imperdiet massa tincidunt nunc. Sit amet consectetur
+            adipiscing elit duis tristique sollicitudin nibh sit. Euismod lacinia at quis risus sed vulputate odio.
+            Aliquam etiam erat velit scelerisque. Auctor urna nunc id cursus metus aliquam. Morbi tempus iaculis urna
+            id. Hac habitasse platea dictumst quisque sagittis purus sit amet. Et leo duis ut diam. Volutpat ac
+            tincidunt vitae semper quis lectus nulla at.</p>
 
-        <p>Arcu dictum varius duis at consectetur lorem donec. Tincidunt augue interdum velit euismod in pellentesque. Dignissim suspendisse in est ante in nibh mauris. Sed ullamcorper morbi tincidunt ornare massa eget. Nullam eget felis eget nunc lobortis mattis aliquam. Bibendum ut tristique et egestas quis ipsum. Arcu dictum varius duis at consectetur. Faucibus interdum posuere lorem ipsum dolor. Vulputate mi sit amet mauris commodo quis. Morbi tristique senectus et netus et. Nisl tincidunt eget nullam non nisi. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Sollicitudin tempor id eu nisl nunc mi ipsum. Urna id volutpat lacus laoreet non curabitur gravida. Eu lobortis elementum nibh tellus molestie nunc. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam. Non consectetur a erat nam at lectus urna duis. Cras sed felis eget velit. Nullam ac tortor vitae purus faucibus ornare suspendisse sed.</p>
+        <p>Arcu dictum varius duis at consectetur lorem donec. Tincidunt augue interdum velit euismod in pellentesque.
+            Dignissim suspendisse in est ante in nibh mauris. Sed ullamcorper morbi tincidunt ornare massa eget. Nullam
+            eget felis eget nunc lobortis mattis aliquam. Bibendum ut tristique et egestas quis ipsum. Arcu dictum
+            varius duis at consectetur. Faucibus interdum posuere lorem ipsum dolor. Vulputate mi sit amet mauris
+            commodo quis. Morbi tristique senectus et netus et. Nisl tincidunt eget nullam non nisi. Ipsum faucibus
+            vitae aliquet nec ullamcorper sit amet risus nullam. Sollicitudin tempor id eu nisl nunc mi ipsum. Urna id
+            volutpat lacus laoreet non curabitur gravida. Eu lobortis elementum nibh tellus molestie nunc. Sit amet
+            luctus venenatis lectus magna fringilla urna porttitor rhoncus. Feugiat pretium nibh ipsum consequat nisl
+            vel pretium lectus quam. Non consectetur a erat nam at lectus urna duis. Cras sed felis eget velit. Nullam
+            ac tortor vitae purus faucibus ornare suspendisse sed.</p>
     </div>
 </div>
+
+<!--  jquery -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+<!-- custom javascript -->
+<script src="js/functionality.js"></script>
 </body>
 </html>
