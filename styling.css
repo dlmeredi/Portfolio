@@ -9,10 +9,12 @@ body{
 .sidebar{
     flex: 1;
     height:600px;
-    background-color: blue;
+    width: 200px;
+    background-color: blanchedalmond;
 }
 .main-content{
     flex: 1;
     height: 600px;
-    background-color: blueviolet;
+    background-color: white;
+    overflow: auto;
 }
