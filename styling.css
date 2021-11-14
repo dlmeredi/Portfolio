@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    display: flex;
+}
+.sidebar{
+    flex: 1;
+    height:600px;
+    background-color: blue;
+}
+.main-content{
+    flex: 1;
+    height: 600px;
+    background-color: blueviolet;
+}
