@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Balsamiq Sans', sans-serif;
 }
 
 .wrapper{
@@ -10,7 +11,7 @@ body{
     flex: 1;
     height:600px;
     width: 150px;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 .main-content{
     flex: 1;
@@ -22,4 +23,13 @@ body{
 .welcome-header{
     height: 500px;
     width: 700px;
+}
+
+.headshot{
+
+}
+
+.about-me{
+    height:
+    width:
 }
