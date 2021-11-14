@@ -9,12 +9,17 @@ body{
 .sidebar{
     flex: 1;
     height:600px;
-    width: 200px;
+    width: 150px;
     background-color: blanchedalmond;
 }
 .main-content{
     flex: 1;
-    height: 600px;
+    height: 750px;
     background-color: white;
     overflow: auto;
+}
+
+.welcome-header{
+    height: 500px;
+    width: 700px;
 }
