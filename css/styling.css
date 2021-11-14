@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
 }
 
+/* background stuff  */
 section{
     position: relative;
     display: flex;
@@ -19,16 +20,14 @@ section{
     padding: 100px 20vw;
 }
 
-
-
-
-.sidebar {
-    flex: 1;
+.welcome-header {
     height: 600px;
-    width: 150px;
-    background-color: white;
+    width: 800px;
+    display: flex;
+    justify-content: center;
 }
 
+/* main content / projects display */
 .main-content {
     flex: 1;
     height: 750px;
@@ -36,11 +35,12 @@ section{
     overflow: auto;
 }
 
-.welcome-header {
+/* side bar */
+.sidebar {
+    flex: 1;
     height: 600px;
-    width: 800px;
-    display: flex;
-    justify-content: center;
+    width: 150px;
+    background-color: white;
 }
 
 .headshot {
@@ -59,3 +59,5 @@ section{
     display: flex;
     justify-content: center;
 }
+
+/* media queries  */
