@@ -5,7 +5,7 @@
 
 - [Description](#Description)
 - [Features](#Features) 
-- [Project Planning](#Project Planning)
+- [Project Planning](#ProjectPlanning)
 - Demo 💬
 - Next Updates 💬
 
