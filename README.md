@@ -31,7 +31,7 @@ Single page website that showcases my projects outside of GitHub.
 ## Features
 
 **When a User visits the webpage:**
-- User can view site content all on one page (no multi-pages this time, will implement in later versions)
+- User can view site content all on one page (no sub-pages this time, will implement in later versions)
 - User can click social links (github + linkedin) to view additional work/contact the Creator
 - User can hover over project images to get a brief description of the project & what it's for/what it does (link for github will be below)
 
