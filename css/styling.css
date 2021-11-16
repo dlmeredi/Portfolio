@@ -2,6 +2,11 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Balsamiq Sans', sans-serif;
+    background-image: url("https://static.wixstatic.com/media/e4f528_58923417c107462a86ebabdc8a08e177~mv2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .wrapper {
@@ -10,19 +15,9 @@ body {
     margin: 0 auto;
 }
 
-/* background stuff  */
-section{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 400px;
-    padding: 100px 20vw;
-}
-
 .welcome-header {
-    height: 600px;
-    width: 800px;
+    height: 500px;
+    width: 650px;
     display: flex;
     justify-content: center;
 }
@@ -59,5 +54,7 @@ section{
     display: flex;
     justify-content: center;
 }
+
+
 
 /* media queries  */
