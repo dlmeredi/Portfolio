@@ -15,11 +15,11 @@ body {
     margin: 0 auto;
 }
 
-.welcome-header {
-    height: 500px;
-    width: 650px;
+.intro-sub-title {
+
     display: flex;
     justify-content: center;
+
 }
 
 /* main content / projects display */
