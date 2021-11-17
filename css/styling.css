@@ -15,12 +15,20 @@ body {
     margin: 0 auto;
 }
 
+
+.intro-title {
+    font-family: 'Lemon', cursive;
+
+}
 .intro-sub-title {
 
     display: flex;
     justify-content: center;
 
 }
+
+/* nav bar + header */
+
 
 /* main content / projects display */
 .main-content {

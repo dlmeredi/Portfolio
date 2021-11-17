@@ -10,12 +10,50 @@
           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="css/styling.css">
-    <!-- preferred default font for site "Balsamiq Sans" -->
+    <!-- multiple font families" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Chewy&family=Coiny&family=Delius+Swash+Caps&family=Fascinate&family=Fascinate+Inline&family=Freckle+Face&family=Fredericka+the+Great&family=Give+You+Glory&family=Kranky&family=Lemon&family=Ma+Shan+Zheng&family=Megrim&family=Miniver&family=Monoton&family=Oleo+Script:wght@400;700&family=Raleway+Dots&family=Ribeye+Marrow&family=Sedgwick+Ave&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
 </head>
 <body>
+<!-- Header + Navbar -->
+<header>
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</header>
+
 <!-- Intro -->
 <section class="intro" id="home">
 <h1 class="intro-title">
@@ -25,12 +63,24 @@
     <h2 class="intro-sub-title">Software Developer</h2>
     <!-- I prefer to have a fixed sidebar with my image + my name + a short blurb about me & my recent accomplishments -->
 </section>
+<div class="nav-background bg-light"></div>
 <div class="wrapper">
-    <div class="sidebar">
-        <center>sidebar</center>
-        <img class="headshot" src="images/diamond_meredithanderson.jpeg" alt="headshot">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img class="headshot" src="images/diamond_meredithanderson.jpeg" alt="headshot">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <br>
+                    <br>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
+                </div>
+            </div>
+        </div>
     </div>
+
     <div class="main-content">
         <center>main content</center>
         <p>Ac auctor augue mauris augue neque gravida. Et ultrices neque ornare aenean euismod elementum nisi quis
