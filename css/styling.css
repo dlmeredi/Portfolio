@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     background-image: url("https://static.wixstatic.com/media/e4f528_58923417c107462a86ebabdc8a08e177~mv2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,11 +15,19 @@ body {
     margin: 0 auto;
 }
 
-
-.intro-title {
+/* title  */
+.jumbotron{
     font-family: 'Lemon', cursive;
+    background-color: #fff;
+}
+
+.lead{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:35px;
+    justify-content: center;
 
 }
+
 .intro-sub-title {
 
     display: flex;
@@ -39,11 +47,8 @@ body {
 }
 
 /* side bar */
-.sidebar {
-    flex: 1;
-    height: 600px;
-    width: 150px;
-    background-color: white;
+.card {
+    border: none;
 }
 
 .headshot {
@@ -56,12 +61,12 @@ body {
     justify-content: left;
 }
 
-.about-me {
-    height: 200px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
+
+/* footer properties  */
+.footer{
+background-color:
 }
+
 
 
 
