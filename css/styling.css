@@ -18,14 +18,9 @@ body {
 /* nav bar + header */
 
 
-
-
-
 /* title  */
-.jumbotron {
-    background-color: #fff;
-    margin-top: 20%;
-
+.site-title {
+    margin-bottom: 15%;
 }
 
 .display-4 {
@@ -48,9 +43,24 @@ body {
     overflow: auto;
 }
 
+
+.skills {
+    margin: 10%;
+}
+
+.headers {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    justify-content: left;
+}
+
 /* side bar */
 .card {
     border: none;
+}
+
+.card-body {
+    margin-left: 10%;
 }
 
 .headshot {
