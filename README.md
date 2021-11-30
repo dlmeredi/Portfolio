@@ -5,7 +5,7 @@
 
 - [Description](#Description)
 - [Features](#Features) 
-- [Planning](#Planning)
+- Planning 💬
 - Demo 💬
 - Next Updates 💬
 
@@ -36,10 +36,7 @@ Single page website that showcases my projects outside of GitHub.
 - User can hover over project images to get a brief description of the project & what it's for/what it does (link for github will be below)
 
 
-         
-## Planning 
-
-Visit my Trello Board <a href="https://trello.com/b/fwGAxAbY/portforlio">here</a>!
+       
          
          
          
