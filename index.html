@@ -15,14 +15,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Chewy&family=Coiny&family=Delius+Swash+Caps&family=Fascinate&family=Fascinate+Inline&family=Freckle+Face&family=Fredericka+the+Great&family=Give+You+Glory&family=IBM+Plex+Sans&family=Kranky&family=Lemon&family=Libre+Baskerville:wght@400;700&family=Ma+Shan+Zheng&family=Megrim&family=Miniver&family=Monoton&family=Oleo+Script:wght@400;700&family=Raleway+Dots&family=Ribeye+Marrow&family=Sedgwick+Ave&family=Shadows+Into+Light+Two&display=swap"
           rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
 
 </head>
 <body>
-<!-- Header + Navbar -->
+<!-- Header  -->
 <header>
     <div class="logo">
-        <img src="https://img.icons8.com/external-soft-fill-juicy-fish/40/000000/external-digital-digital-nomad-soft-fill-soft-fill-juicy-fish-5.png"/>
+        <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/50/000000/external-diamonds-valentines-day-flatart-icons-flat-flatarticons.png"/>
     </div>
+
+    <!-- navbar -->
     <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
     </button>
@@ -38,7 +43,7 @@
 
 <!-- Intro -->
 <section class="intro" id="home">
-    <div class="site-title">
+    <div class="site-title" align="center">
         <h1 class="display-4">Diamond Meredith</h1>
         <p class="lead">S o f t w a r e D e v e l o p e r</p>
     </div>
@@ -69,10 +74,10 @@
     <!-- My Skills -->
     <section class="my-skills" id="skills">
         <div class="skills" align="center">
-            <h2 class="headers" align="left"><strong>
-                M y S k i l l s
-            </strong>
-            </h2>
+            <!--            <h2 class="headers" align="left"><strong>-->
+            <!--                S k i l l s-->
+            <!--            </strong>-->
+            <!--            </h2>-->
             <p>
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img align="center"
                                                                                        src="https://img.icons8.com/color/75/000000/javascript--v1.png"
@@ -113,9 +118,74 @@
         </div>
     </section>
 
+    <!-- My Projects -->
+    <section class="my-projects" id="projects">
+        <div class="card-container container projects" align="center">
+            <!--            <h2 class="headers" align="left"><strong>-->
+            <!--                P r o j e c t s-->
+            <!--            </strong>-->
+            <!--            </h2>-->
+            <!-- project 1 -->
+            <div class="card" style="width: 35rem;">
+                <img class="card-img-top" src="../images/coffeeproject.gif" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="sub-title">DNE Coffee</h3>
+                    <p class="card-text">This single-page site allows the user to search, edit, add and delete coffees
+                        of their choice. </p>
+                    <br>
+                    <a class="project-links" href="https://github.com/erik-diamond-nathan/coffee-project">Repository</a>
+                    || <a class="project-links" href="https://erik-diamond-nathan.github.io/coffee-project/">Live</a>
+
+                </div>
+            </div>
+            <br><br><br><br>
+
+            <!-- project 2 -->
+            <div class="card" style="width: 35rem;">
+                <img class="card-img-top" src="../images/movieproject.gif" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="sub-title">Screens Come True</h3>
+                    <p class="card-text">This is a single-page movie application that allows users to add, delete, edit
+                        and showcase movies of their choice. The user can curate their own movie library.</p>
+                    <br>
+                    <a class="project-links" href="https://github.com/Diamond-Prachi/movie_project">Repository</a> || <a
+                        class="project-links" href="https://diamond-prachi.github.io/movie_project/">Live</a>
+                </div>
+            </div>
+            <br><br><br><br>
+            <!-- project 3 -->
+            <div class="card" style="width: 35rem;">
+                <img class="card-img-top" src="../images/capstoneproject.gif" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="sub-title">DevSplash</h3>
+                    <p class="card-text">This is a full-stack website that allows developers to easily come together and
+                        collaborate on new project ideas. The user can create,edit,delete their own account, log
+                        different projects that they create and find other users to collaborate with.</p>
+                    <br>
+                    <a class="project-links" href="https://github.com/devsplash-capstone/devsplash">Repository</a> || <a
+                        class="project-links" href="https://devsplash.io/">Live</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </section>
 
 </div>
-
+<!-- footer -->
+<footer>
+    <div class="footer">
+        Designed by Diamond Meredith with ❤️
+        <ul class="social-list">
+            <li class="social-list-item"><a href="mailto:diamond.meredithanderson@gmail.com">Contact Me!</a></li>
+            <br><br>
+            <li class="social-list-item"><a class="social-list-link" href="https://github.com/dlmeredi"><img src="https://img.icons8.com/ios/20/000000/github-2.png"/></a></li>
+            <li class="social-list-item"><a class="social-list-link"
+                                            href="https://www.linkedin.com/in/diamond-meredith-anderson/"><img src="https://img.icons8.com/ios/20/000000/linkedin.png"/></a>
+            </li>
+        </ul>
+    </div>
+    All icons on this site by <a href="https://icons8.com/icons">Icons8</a>
+</footer>
 <!--  jquery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -125,19 +195,6 @@
         crossorigin="anonymous"></script>
 <!-- custom javascript -->
 <script src="js/functionality.js"></script>
-<footer>
-    <div class="footer fixed-bottom">
-        <span class="text-muted">
-            Developed & designed by Diamond Meredith with ❤️
-            <a href="mailto:diamond.meredithanderson@gmail.com" class="footer-link">contact me!</a>
-            <ul class="social-list">
-                <li class="social-list-item"><a class="social-list-link"></a></li>
-                <li class="social-list-item"><a class="social-list-link"></a></li>
-            </ul>
-        </span>
-    </div>
-    <a href="https://icons8.com/icon/">All icons on this site by Icons8</a>
-</footer>
 </body>
 </html>
 

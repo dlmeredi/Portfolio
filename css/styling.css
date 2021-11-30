@@ -1,26 +1,65 @@
-body {
+/* nav bar + header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+}
+
+.logo {
+
+}
+
+
+
+.nav {
+    position: fixed;
+    /*background: white;*/
+    /*color: white;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    /*display: none;*/
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 0;
     padding: 0;
-    font-family: 'Libre Baskerville', serif;
-    /*background-image: url("https://static.wixstatic.com/media/e4f528_58923417c107462a86ebabdc8a08e177~mv2.png");*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    background-size: cover;
 }
 
-.wrapper {
-    max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
+.nav-link {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-/* nav bar + header */
+.nav-link:hover {
+    color: #ffa763;
+}
+
+.hamburger {
+    background-color: white;
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    display: block;
+    position: relative;
+}
 
 
 /* title  */
 .site-title {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
+    position: relative;
 }
 
 .display-4 {
@@ -31,11 +70,27 @@ body {
 .lead {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 35px;
-    justify-content: center;
-
 }
 
-/* main content / projects display */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Antique', sans-serif;
+    /*background-image: url("https://static.wixstatic.com/media/e4f528_58923417c107462a86ebabdc8a08e177~mv2.png");*/
+    background-image: linear-gradient(#fff, #fff, #fecbe5, #ffa763);
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: bottom;*/
+    /*background-size: cover;*/
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* main content + projects display */
 .main-content {
     flex: 1;
     height: 750px;
@@ -43,9 +98,21 @@ body {
     overflow: auto;
 }
 
+.card-container {
+    background-color: transparent;
+}
 
 .skills {
-    margin: 10%;
+    margin: 15%;
+}
+
+.project-links {
+    color: #ffa763;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-weight: bold;
 }
 
 .headers {
@@ -54,14 +121,12 @@ body {
     justify-content: left;
 }
 
-/* side bar */
+/* eventual side bar */
 .card {
     border: none;
+    /*background-color: transparent;*/
 }
 
-.card-body {
-    margin-left: 10%;
-}
 
 .headshot {
     margin: 0 auto;
@@ -71,10 +136,45 @@ body {
     width: 250px;
     display: flex;
     justify-content: left;
+    box-shadow: 15px 10px 10px #fecbe5;
 }
 
 
 /* footer properties  */
 
+.footer{
+    background-color: transparent;
+    text-align: center;
+    padding: 2.5em 0;
+}
+
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
+
+.social-list-link:hover {
+    color: white;
+    opacity: .7;
+}
+
 
 /* media queries  */
+@media (min-width: 800px) {
+
+}
+
+@media (min-width: 600px) {
+    .title {
+        display: grid;
+        grid-template-areas:
+                "img title"
+                "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+}
+
