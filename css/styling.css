@@ -34,6 +34,13 @@
 .display-4 {
     font-family: 'Lemon', cursive;
     font-size: 65px;
+    -webkit-text-stroke: 1px #000;
+    color: #000;
+    text-shadow: 3px 3px 0 #ffa763,
+    -1px -1px 0 #ffa763;
+    /*-1px -1px 0 #ffa763;*/
+    /*-1px -1px 0 #ffa763;*/
+    /*-1px -1px 0 #ffa763;*/
 }
 
 .lead {
@@ -44,7 +51,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     /*background-image: url("https://static.wixstatic.com/media/e4f528_58923417c107462a86ebabdc8a08e177~mv2.png");*/
     background-image: linear-gradient(#fff, #fff, #fecbe5, #ffa763);
     /*background-repeat: no-repeat;*/
@@ -144,7 +151,7 @@ body {
 }
 
 .footer-text {
-    font-size: small;
+    font-size: x-small;
 }
 
 .footer-text,
@@ -157,7 +164,7 @@ body {
 .icons8-tag,
 .icons8-link {
     color: black;
-    font-size: x-small;
+    font-size: xx-small;
 }
 
 .icons8-link:hover {
