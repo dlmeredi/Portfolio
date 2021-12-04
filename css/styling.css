@@ -33,7 +33,7 @@
 
 .display-4 {
     font-family: 'Lemon', cursive;
-    font-size: 65px;
+    font-size: 75px;
     -webkit-text-stroke: 1px #000;
     color: #000;
     text-shadow: 3px 3px 0 #ffa763,
@@ -45,7 +45,7 @@
 
 .lead {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 body {
