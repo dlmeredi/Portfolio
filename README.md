@@ -13,7 +13,7 @@
 
 ## Description 
 
-Single page website that showcases my projects outside of GitHub. 
+Multi-Page website that showcases my projects.
 
 ### Languages/Tools used
 
