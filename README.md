@@ -15,7 +15,7 @@
 
 Single page website that showcases my projects outside of GitHub. 
 
-### Languages used
+### Languages/Tools used
 
 * Javascript
 * HTML
